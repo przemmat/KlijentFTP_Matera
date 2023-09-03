@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="KlijentFTP.exe" version="1.0.0.0" publicKeyToken="16db0e5a12d69a1f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="KlijentFTP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="KlijentFTP.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KlijentFTP.exe" size="23520">
+      <assemblyIdentity name="KlijentFTP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7tw1UM0V1lDXkrgJJL7JsKATb8HqUuTogYXK/qvguBc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="KlijentFTP.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-COH0G4F\przem" issuerKeyHash="a2ca148b8de8a31c36cbc73fe40f8db5fa40b2b0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ibLNUq17r7zFxwByb8oEyY7vRvbmVC6CevBglO34N/k=</DigestValue></Reference></SignedInfo><SignatureValue>eOXuwc22We1+Lph3Y7pg1nWzIMEs14PLp/qEs6XWolRmegQPbx5W3BNniAKyJ9db1XYh1GyGHPx5ASg/M0LRfJy9sXDN2jmtIOD6RV8Asya8QOwQuByxGZdJqplBq15ki00AMWVuS2NsvQGNdcR+0s21hjCWv+9kzm8BUrfbhNg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>z3yPNcHrNOOUmCYD0au2gFVcXsq31IBEixw7LRwy/KsjYcXeiWoq9jc9lG3J5o86/on2sDGk0LPuAjQviR6B+YckIifv8GJpdkpLZRpEL2hLlm9pV3alK0cde7ZZqMTaLrDJssW9kRuseTzWx0qHiGKQQPUzqwGFrt/Oc4D/mC0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f937f8ed9460f07a822e54e6f646ef8ec904ca6f7200c7c5bcaf7bad52cdb289" Description="" Url=""><as:assemblyIdentity name="KlijentFTP.exe" version="1.0.0.0" publicKeyToken="16db0e5a12d69a1f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-COH0G4F\przem</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>luI7Zs4SpQKR+xOdlQJ7RYNnPkaNhKZuzNyOZDwJxYY=</DigestValue></Reference></SignedInfo><SignatureValue>N+m2EpAQAzRV8x/bmTucc+0s5Izp3pjm5yfLQLgnU/LwKZkwERLyL0tL1oG5YKa6nSFuliHWOFwf7exu7rC/N3yif9PyCVmTXcHm+xiPsyzlVYi9wCFuz74FYUFMwRzYIIyx/BcC3dTrEBre786TFOE0+iIZAFTcXQOyASKBj4s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>z3yPNcHrNOOUmCYD0au2gFVcXsq31IBEixw7LRwy/KsjYcXeiWoq9jc9lG3J5o86/on2sDGk0LPuAjQviR6B+YckIifv8GJpdkpLZRpEL2hLlm9pV3alK0cde7ZZqMTaLrDJssW9kRuseTzWx0qHiGKQQPUzqwGFrt/Oc4D/mC0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQfgwtADjKZK5BGAmUrfyCBjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEMATwBIADAARwA0AEYAXABwAHIAegBlAG0wHhcNMjMwOTAzMjMwMTE3WhcNMjQwOTAzMDUwMTE3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEMATwBIADAARwA0AEYAXABwAHIAegBlAG0wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM98jzXB6zTjlJgmA9GrtoBVXF7Kt9SARIscOy0cMvyrI2HF3olqKvY3PZRtyeaPOv6J9rAxpNCz7gI0L4kegfmHJCIn7/BiaXZKS2UaRC9oS5ZvaVd2pStHHXu2WajE2i6wybLFvZEbrHk81sdKh4hikED1M6sBha7fznOA/5gtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAps/uZ3x4g2sUEZuVlSwe3DJiewk2MUCGSZzRiwWkv+ae+s5Z8iQeS9NO/pgK1l4ucqF2Mjbg08QY1s+Ev+BZ5iT8rQpGT+fcm6FyrY71CWzWK88O+wGWYW3GUKenan6Si5uNK1WgaAJ/EyMh/9/REm4EMzpyvJiQUlXyPXtQEdU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
